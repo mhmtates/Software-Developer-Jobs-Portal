@@ -7,7 +7,7 @@ import ViewAllJobs from '../components/ViewAllJobs'
 const HomePage = () => {
   return (
     <>
-    <Hero/>
+    <Hero title = 'Yazılım Geliştirici İş İlanları' subtitle = 'Becerilerinize uyan en doğru işi bulun'/>
     <HomeCards/>
     <JobListings/>
     <ViewAllJobs/>
