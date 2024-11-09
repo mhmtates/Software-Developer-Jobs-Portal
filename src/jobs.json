@@ -2,38 +2,40 @@
   "jobs": [
     {
       "id": "1",
-      "title": "Senior React Developer",
-      "type": "Full-Time",
-      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
-      "location": "Boston, MA",
-      "salary": "$70K - $80K",
+      "title": "Middle&Senior Frontend Developer",
+      "type": "Hybrid,Tam Zamanlı",
+      "description": "Şirketimiz, en az 5 yıl deneyime sahip, CSS3 ve Bootstrap konularında uzmanlaşmış, ayrıca Git, Bitbucket gibi versiyon kontrol sistemlerinde deneyimli ve Angular ile en az 3 proje tamamlamış bir Frontend Developer aramaktadır. Ayrıca Restful API, Socket ve MQTT gibi teknolojilerle tecrübesi olan adayları tercih ediyoruz.",
+      "qualification":"Minimum 4 yıllık Angular ve/veya React tecrübesi.CSS3 ve Bootstrap konularında derinlemesine bilgi sahibi olmak.HTML, CSS ve JavaScript konularında güçlü bilgi ve deneyim.Kullanıcı deneyimi (UX/UI) tasarımında uzmanlık.Angular frameworkü ile en az 3 proje tamamlamış olmak.Git, Bitbucket gibi versiyon kontrol sistemlerinde tecrübe sahibi olmak.Restful API, Socket ve MQTT gibi teknolojilerle deneyimli olmak.MVC mimarisine hakim olmak.İletişim becerileri güçlü olmak ve ekip içinde etkili bir şekilde çalışmak.",
+      "location": "Esenler,İstanbul,Türkiye",
+      "salary": "45000-50000 ₺",
       "company": {
-        "name": "NewTek Solutions",
-        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
-        "contactEmail": "contact@teksolutions.com",
-        "contactPhone": "555-555-5555"
+        "name": "Paymore",
+        "description": "Paymore, finansal teknoloji alanında öncü bir şirket olarak, Self-Satış, Retail, Perakende ve E-Ticaret sektörlerinde devrim yaratıyor. Merkezi Yıldız Teknik Üniversitesi Teknopark'ta bulunan şirketimiz, Nakitsiz Ödeme, Telemetri ve Uçtan Uca Self-Satış Çözümleri konusunda özelleştirilmiş ve etkili çözümler sunmaktadır.",
+        "contactEmail": "info@paymore.com.tr",
+        "contactPhone": "+90 539 896 83 83"
       }
     },
     {
       "id": "2",
-      "title": "Front-End Engineer (React & Redux)",
-      "type": "Full-Time",
-      "location": "Miami, FL",
-      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
-      "salary": "$70K - $80K",
+      "title": "Senior Backend Developer (.Net Core, C#)",
+      "type": "Hybrid,Tam Zamanlı",
+      "location": "Ümraniye/İstanbul/Türkiye",
+      "description": "Şirketimizde, .Net Core ve C# teknolojilerinde uzmanlaşmış, özellikle kartlı ödeme sistemleri, takas, pos ve atm domainlerinde deneyim sahibi Ümraniye/ İstanbul lokasyonunda, 2 hafta uzaktan, 1 hafta ofisten olacak şekilde çalışma koşullarına uyum sağlayabilecekbir Senior Backend Developer arayışımız bulunmaktadır. ",
+      "qualification":"Net Core ve C# yazılım geliştirme alanında +5 yıl deneyimine sahip olmak, En az 2 yıllık DevOps deneyimi, API tasarlama ve geliştirme deneyimine sahip olmak, SOLID prensiplerine uygun kod yazabilmek,Redis, RabbitMQ veya Kafka bilgisi (Elasticsearch bilgisi avantaj olacaktır),PostgreSQL bilgisi (avantaj olacaktır), yazılım geliştirme standartları konusunda deneyimli olmak, Git ve Docker konularında bilgi ve deneyim sahibi olmak, analitik düşünce ve problem çözme becerisi kuvvetli, iletişim yönü güçlü, değişime ve yeni teknolojilere açık ilgili adayların başvurularını bekliyoruz.",
+      "salary": "50000-55000 ₺",
       "company": {
-        "name": "Veneer Solutions",
-        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
-        "contactEmail": "contact@loremipsum.com",
-        "contactPhone": "555-555-5555"
+        "name": "SmartInfo Data Solution",
+        "description": "Smartinfo, Veri Teknolojileri alanında kurumsal müşterilerine Veri Ambarı, İleri Veri Analitiği, Büyük Veri, Raporlama, Karar Destek projelerinde anahtar teslim ve dış kaynak sağlama noktasında tecrübeli ekibiyle hizmet vermektedir. Bir çok farklı sektörde Veri Ambarı, Veri Analizi, Raporlama ve Veri Analitiği konularındaki tecrübesiyle şirketinizin ihtiyacına en uygun yaklaşımı, maksimum fayda sağlayacak şekilde projelendirmektedir. Smartinfo, Veriyi bilgiye dönüştürmekle kalmayıp en akıllı şekilde kullanıp kurumunuzun mevcut durumunu anlamanıza ve geleceğini şekillendirmenize katkı sağlar.",
+        "contactEmail": "ik@smartinfo.com.tr",
+        "contactPhone": "02128301044"
       }
     },
     {
       "id": "3",
-      "title": "React.js Dev",
-      "type": "Full-Time",
-      "location": "Brooklyn, NY",
-      "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
+      "title": "Yazılım Mühendisi",
+      "type": "İş yerinde,Tam Zamanlı",
+      "location": "Ankara, Türkiye",
+      "description": "Eğitim ve simülatör sistemlerinin yazılımlarının geliştirilmesi konusunda görevlendirilmek üzere savunma, havacılık veya bilgi teknolojileri alanlarında deneyimi bulunan veya bu alanlara ilgi duyan 3+ yıl tecrübeli takım arkadaşları arıyoruz.",
       "salary": "$70K - $80K",
       "company": {
         "name": "Dolor Cloud",

@@ -20,11 +20,11 @@ const Navbar = () => {
                     <NavLink to='/' className={activeLink}>
                     AnaSayfa
                     </NavLink>
-                    <NavLink to='/jobs' className={activeLink}>
-                    İşler
+                    <NavLink to='is-ilanlari' className={activeLink}>
+                    İş İlanları
                     </NavLink>
-                    <NavLink to='add-job' className={activeLink}>
-                    Yeni Bir İş Ekle
+                    <NavLink to='is-ilani-ekle' className={activeLink}>
+                    Yeni Bir İş İlanı Ekle
                     </NavLink>
                   </div>
                 </div>
