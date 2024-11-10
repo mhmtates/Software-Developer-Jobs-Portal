@@ -24,7 +24,7 @@ const Navbar = () => {
                     İş İlanları
                     </NavLink>
                     <NavLink to='is-ilani-ekle' className={activeLink}>
-                    Yeni Bir İş İlanı Ekle
+                    İş İlanı Ekle
                     </NavLink>
                   </div>
                 </div>
