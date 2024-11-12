@@ -6,6 +6,7 @@ import NotFoundPage from './pages/NotFoundPage';
 import JobPage, { jobLoader } from './pages/JobPage';
 import AddJobPage from './pages/AddJobPage';
 import EditJobPage from './pages/EditJobPage';
+
 const App = () => {
 
   const addJob = async (newJob) => {
@@ -19,7 +20,7 @@ const App = () => {
     return;
   };
   const deleteJob = async (id) => {
-    const response = await fetch(`/api/jobs/{id},`, {
+    const response = await fetch(`/api/jobs/${id},`, {
       method: 'DELETE',
     });
     return;
@@ -49,6 +50,8 @@ const App = () => {
         <Route path='/ilani-duzenle/:id' element={<EditJobPage
           updateJobSubmitHandler={updateJob} />}
           loader={jobLoader} />
+        <Route path='/is-ilani/:id' element={<JobPage deleteJob={deleteJob} />}
+         loader={jobLoader} />
       </Route>
     )
   );

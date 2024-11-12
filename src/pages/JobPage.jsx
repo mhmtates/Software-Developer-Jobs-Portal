@@ -1,12 +1,13 @@
 // import {useState,useEffect} from 'react';
-import { useParams, useLoaderData } from 'react-router-dom';
+import { useParams, useLoaderData,useNavigate } from 'react-router-dom';
 import { FaArrowLeft, FaMapMarker } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-const JobPage = () => {
+const JobPage = ({deleteJob}) => {
+  const navigate = useNavigate();
   const { id } = useParams();
   const job = useLoaderData();
-  {/* <!-- UseState ve UseEffect Hooklarıyla Yapılışı --> */ }
+  /* <!-- UseState ve UseEffect Hooklarıyla Yapılışı --> */ 
   // const[job,setJob] = useState(null);
   // const [loading,setLoading] = useState(true);
 
@@ -26,6 +27,19 @@ const JobPage = () => {
 
   //     fetchJob();
   //   },[])
+  const onDeleteClick = (jobId) => {
+    const confirm = window.confirm(
+      'Bu iş ilanını silmek istediğinize emin misiniz?'
+    );
+
+    if (!confirm) return;
+
+    deleteJob(jobId);
+
+    toast.success('Bu iş ilanı başarılı bir şekilde silindi.');
+
+    navigate('/is-ilanlari');
+  };
 
   return (
     <>
@@ -60,10 +74,12 @@ const JobPage = () => {
 
                 <p className='mb-4'>{job.description}</p>
                 <div className="detailed-description">
-                  <h3 className="text-indigo-800 text-lg font-bold">
+                  <h3 className="text-indigo-800 text-lg font-bold mb-2">
                     Aranan Nitelikler
                   </h3>
-                   <div>{job.qualification} </div> 
+                   <div className='grid grid-cols-1'>
+                    {job.qualification} 
+                    </div> 
                 </div>
 
                 <h3 className='text-indigo-800 text-lg font-bold mb-2'>
@@ -107,7 +123,7 @@ const JobPage = () => {
                 >
                   İlanı Güncelle
                 </Link>
-                <button className='bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block'
+                <button onClick={() => onDeleteClick(job.id)} className='bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block'
                 >
                   İlanı Sil
                 </button>
