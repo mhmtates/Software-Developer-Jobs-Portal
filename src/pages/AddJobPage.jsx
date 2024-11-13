@@ -8,12 +8,15 @@ const AddJobPage = ({ addJobSubmitHandler }) => {
   const [type, setType] = useState('Hybrid/Tam Zamanlı');
   const [location, setLocation] = useState('');
   const [description, setDescription] = useState('');
-  const [qualification,setQualification] = useState('');
+  const [qualification, setQualification] = useState('');
   const [salary, setSalary] = useState('');
   const [companyName, setCompanyName] = useState('');
   const [companyDescription, setCompanyDescription] = useState('');
+  const [websiteUrl, setWebSiteUrl] = useState('');
   const [contactEmail, setContactEmail] = useState('');
   const [contactPhone, setContactPhone] = useState('');
+  const [sector, setSector] = useState('');
+  const [expertiseField, setExpertiseField] = useState('');
 
   const navigate = useNavigate();
 
@@ -30,8 +33,11 @@ const AddJobPage = ({ addJobSubmitHandler }) => {
       company: {
         name: companyName,
         description: companyDescription,
+        url: websiteUrl,
         contactEmail,
         contactPhone,
+        sector,
+        expertiseField
       },
     };
 
@@ -109,7 +115,7 @@ const AddJobPage = ({ addJobSubmitHandler }) => {
                 htmlFor='qualification'
                 className='block text-gray-700 font-bold mb-2'
               >
-                 Aranan Nitelikler
+                Aranan Nitelikler
               </label>
               <textarea
                 id='qualification'
@@ -164,7 +170,7 @@ const AddJobPage = ({ addJobSubmitHandler }) => {
               <option value='Ankara'>Ankara</option>
               <option value='İzmir'>İzmir</option>
               <option value='Kocaeli'>Kocaeli</option>
-             
+
             </select>
 
             <h3 className='text-2xl my-5'>Şirket Bilgileri</h3>
@@ -207,10 +213,28 @@ const AddJobPage = ({ addJobSubmitHandler }) => {
 
             <div className='mb-4'>
               <label
+                htmlFor='websiteUrl'
+                className='block text-gray-700 font-bold mb-2'
+              >
+                Web Sitesi
+              </label>
+              <input
+                type='text'
+                id='websiteUrl'
+                name='websiteUrl'
+                className='border rounded w-full py-2 px-3'
+                placeholder='Web sitesi urlsini giriniz.'
+                required
+                value={websiteUrl}
+                onChange={(e) => setWebSiteUrl(e.target.value)}
+              />
+            </div>
+            <div className='mb-4'>
+              <label
                 htmlFor='contact_email'
                 className='block text-gray-700 font-bold mb-2'
               >
-                 EMail
+                E-Posta
               </label>
               <input
                 type='email'
@@ -240,7 +264,40 @@ const AddJobPage = ({ addJobSubmitHandler }) => {
                 onChange={(e) => setContactPhone(e.target.value)}
               />
             </div>
-
+            <div className='mb-4'>
+              <label
+                htmlFor='sector'
+                className='block text-gray-700 font-bold mb-2'
+              >
+                Sektör
+              </label>
+              <input
+                id='sector'
+                name='sector'
+                className='border rounded w-full py-2 px-3'
+                placeholder='Sektör giriniz.'
+                required
+                value={sector}
+                onChange={(e) => setSector(e.target.value)}>
+              </input>
+            </div>
+            <div className='mb-4'>
+              <label
+                htmlFor='expertiseField'
+                className='block text-gray-700 font-bold mb-2'
+              >
+                Uzmanlık Alanları
+              </label>
+              <input
+                id='expertiseField'
+                name='expertiseField'
+                className='border rounded w-full py-2 px-3'
+                placeholder='Uzmanlık alanlarını giriniz.'
+                required
+                value={expertiseField}
+                onChange={(e) => setExpertiseField(e.target.value)}>
+              </input>
+            </div>
             <div>
               <button
                 className='bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline'

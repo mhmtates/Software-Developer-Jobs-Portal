@@ -14,9 +14,14 @@ const EditJobPage = ({ updateJobSubmitHandler }) => {
   const [companyDescription, setCompanyDescription] = useState(
     job.company.description
   );
+  const [webSiteUrl, setWebSiteUrl] = useState(
+    job.company.webSiteUrl
+  );
   const [contactEmail, setContactEmail] = useState(job.company.contactEmail);
   const [contactPhone, setContactPhone] = useState(job.company.contactPhone);
-
+  const [sector, setSector] = useState(job.company.sector);
+  const [expertiseField, setExpertiseField] = useState(job.company.expertiseField);
+  
   const navigate = useNavigate();
   const { id } = useParams();
 
@@ -34,8 +39,11 @@ const EditJobPage = ({ updateJobSubmitHandler }) => {
       company: {
         name: companyName,
         description: companyDescription,
+        url:webSiteUrl,
         contactEmail,
         contactPhone,
+        sector,
+        expertiseField
       },
     };
 
@@ -209,6 +217,25 @@ const EditJobPage = ({ updateJobSubmitHandler }) => {
 
             <div className='mb-4'>
               <label
+                htmlFor='webSiteUrl'
+                className='block text-gray-700 font-bold mb-2'
+              >
+                Web Sitesi
+              </label>
+              <input
+                type='text'
+                id='webSiteUrl'
+                name='webSiteUrl'
+                className='border rounded w-full py-2 px-3'
+                placeholder='Web Sitesi urlsini giriniz.'
+                required
+                value={webSiteUrl}
+                onChange={(e) => setWebSiteUrl(e.target.value)}
+              />
+            </div>
+
+            <div className='mb-4'>
+              <label
                 htmlFor='contact_email'
                 className='block text-gray-700 font-bold mb-2'
               >
@@ -241,6 +268,40 @@ const EditJobPage = ({ updateJobSubmitHandler }) => {
                 value={contactPhone}
                 onChange={(e) => setContactPhone(e.target.value)}
               />
+            </div>
+            <div className='mb-4'>
+              <label
+                htmlFor='sector'
+                className='block text-gray-700 font-bold mb-2'
+              >
+                Sektör
+              </label>
+              <input
+                id='sector'
+                name='sector'
+                className='border rounded w-full py-2 px-3'
+                placeholder='Sektör giriniz.'
+                required
+                value={sector}
+                onChange={(e) => setSector(e.target.value)}>
+              </input>
+            </div>
+            <div className='mb-4'>
+              <label
+                htmlFor='expertiseField'
+                className='block text-gray-700 font-bold mb-2'
+              >
+                Uzmanlık Alanları
+              </label>
+              <input
+                id='expertiseField'
+                name='expertiseField'
+                className='border rounded w-full py-2 px-3'
+                placeholder='Uzmanlık alanlarını giriniz.'
+                required
+                value={expertiseField}
+                onChange={(e) => setExpertiseField(e.target.value)}>
+              </input>
             </div>
 
             <div>

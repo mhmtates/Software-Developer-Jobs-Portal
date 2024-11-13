@@ -7,6 +7,7 @@ const JobPage = ({deleteJob}) => {
   const navigate = useNavigate();
   const { id } = useParams();
   const job = useLoaderData();
+  const url = job.company.webSiteUrl;
   /* <!-- UseState ve UseEffect Hooklarıyla Yapılışı --> */ 
   // const[job,setJob] = useState(null);
   // const [loading,setLoading] = useState(true);
@@ -49,7 +50,7 @@ const JobPage = ({deleteJob}) => {
             to='/is-ilanlari'
             className='text-indigo-500 hover:text-indigo-600 flex items-center'
           >
-            <FaArrowLeft className='mr-2' /> İş İlanları
+            <FaArrowLeft className='mr-2' /> Geri
           </Link>
         </div>
       </section>
@@ -73,8 +74,8 @@ const JobPage = ({deleteJob}) => {
                 </h3>
 
                 <p className='mb-4'>{job.description}</p>
-                <div className="detailed-description">
-                  <h3 className="text-indigo-800 text-lg font-bold mb-2">
+                <div className='qualification'>
+                  <h3 className='text-indigo-800 text-lg font-bold mb-2'>
                     Aranan Nitelikler
                   </h3>
                    <div className='grid grid-cols-1'>
@@ -99,9 +100,15 @@ const JobPage = ({deleteJob}) => {
 
                 <p className='my-2'>{job.company.description}</p>
 
-                <hr className='my-4' />
+               
 
-                <h3 className='text-xl'>E-Posta:</h3>
+                <h3 className='text-xl my-2'>Web Sitesi:</h3>
+
+                <Link to = {url} className='my-5 bg-indigo-100 p-2 font-bold'>
+                  {job.company.webSiteUrl}
+                </Link>
+
+                <h3 className='text-xl'>EPosta :</h3>
 
                 <p className='my-2 bg-indigo-100 p-2 font-bold'>
                   {job.company.contactEmail}
@@ -110,9 +117,24 @@ const JobPage = ({deleteJob}) => {
                 <h3 className='text-xl'>Telefon :</h3>
 
                 <p className='my-2 bg-indigo-100 p-2 font-bold'>
-                  {' '}
+              
                   {job.company.contactPhone}
                 </p>
+                <h3 className='text-xl'>Sektör :</h3>
+
+                <p className='my-2 bg-indigo-100 p-2 font-bold'>
+              
+                  {job.company.sector}
+                </p>
+
+                <h3 className='text-xl'>Uzmanlık Alanları :</h3>
+
+                <p className='my-2 bg-indigo-100 p-2 font-bold'>
+              
+                  {job.company.expertiseField}
+                </p>
+
+
               </div>
 
               <div className='bg-white p-6 rounded-lg shadow-md mt-6'>
