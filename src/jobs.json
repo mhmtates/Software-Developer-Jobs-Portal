@@ -11,11 +11,11 @@
       "company": {
         "name": "Paymore",
         "description": "Paymore, finansal teknoloji alanında öncü bir şirket olarak, Self-Satış, Retail, Perakende ve E-Ticaret sektörlerinde devrim yaratıyor. Merkezi Yıldız Teknik ÜniverSitesi Teknopark'ta bulunan şirketimiz, Nakitsiz Ödeme, Telemetri ve Uçtan Uca Self-Satış Çözümleri konusunda özelleştirilmiş ve etkili çözümler sunmaktadır.",
-        "webSiteUrl":"https://paymore.com.tr",
+        "webSiteUrl": "https://paymore.com.tr",
         "contactEmail": "info@paymore.com.tr",
         "contactPhone": "+90 539 896 83 83",
-        "sector":"Finansal Hizmetler",
-        "expertiseField":"Fintech ve Retail"
+        "sector": "Finansal Hizmetler",
+        "expertiseField": "Fintech ve Retail"
       }
     },
     {
@@ -29,11 +29,11 @@
       "company": {
         "name": "SmartInfo Data Solution",
         "description": "Smartinfo, Veri Teknolojileri alanında kurumsal müşterilerine Veri Ambarı, İleri Veri Analitiği, Büyük Veri, Raporlama, Karar Destek projelerinde anahtar teslim ve dış kaynak sağlama noktasında tecrübeli ekibiyle hizmet vermektedir. Bir çok farklı sektörde Veri Ambarı, Veri Analizi, Raporlama ve Veri Analitiği konularındaki tecrübesiyle şirketinizin ihtiyacına en uygun yaklaşımı, maksimum fayda sağlayacak şekilde projelendirmektedir. Smartinfo, Veriyi bilgiye dönüştürmekle kalmayıp en akıllı şekilde kullanıp kurumunuzun mevcut durumunu anlamanıza ve geleceğini şekillendirmenize katkı sağlar.",
-        "webSiteUrl":"http://www.smartinfo.com.tr",
+        "url": "http:www.smartinfo.com.tr",
         "contactEmail": "ik@smartinfo.com.tr",
         "contactPhone": "02128301044",
-        "sector":"Yazılım Geliştirme",
-        "expertiseField":"Data, DataWarehouse, BI, İş Zekası, Business Intelligence, Oracle, ODI, OBI, SQL, MsSQL, Azure ve NoSQL"
+        "sector": "Yazılım Geliştirme",
+        "expertiseField": "Data, DataWarehouse, BI, İş Zekası, Business Intelligence, Oracle, ODI, OBI, SQL, MsSQL, Azure ve NoSQL"
       }
     },
     {
@@ -47,11 +47,11 @@
       "company": {
         "name": "Nexoft ",
         "description": "Nexoft Mobile, established in 2019, has always been committed to development and growth. With a highly skilled team experienced in creating mobile applications for a global audience, we specialize in designing iOS and Android applications using the latest technology.\n\nAt Nexoft Mobile, our focus is on producing smart and innovative applications that prioritize user experience. We strive to meet the exact needs of the market while incorporating cutting-edge technology and scientific principles.",
-        "webSiteUrl":"http://www.nexoftmobile.com",
+        "url": "http://www.nexoftmobile.com",
         "contactEmail": "info@nexoftmobile.com.tr",
         "contactPhone": "03123858986",
-        "sector":"Yazılım Geliştirme",
-        "expertiseField":"Yazılım Geliştirme ve Mobil Uygulamalar"
+        "sector": "Yazılım Geliştirme",
+        "expertiseField": "Yazılım Geliştirme ve Mobil Uygulamalar"
       }
     },
     {
@@ -65,45 +65,46 @@
       "company": {
         "name": "Octopus",
         "description": "Octopus Signage is a cloud based interactive and measurable Digital Signage solution.\n\nOctopus offers a ‘’Phygital’’ ecosystem which provides 360 degree offline digital experience for their customers to support their sales and marketing strategies based on the data which are collected through its solutions. Octopus solutions are defined under three cathegories as “Sensing”, “Triggering” and “Design” Technologies.",
-        "webSiteUrl":"https://octopussignage.com",
+        "webSiteUrl": "https://octopussignage.com",
         "contactEmail": "hello@octopussignage.com",
         "contactPhone": "-",
-        "sector":"Yazılım Geliştirme"
-        
+        "sector": "Yazılım Geliştirme"
       }
     },
     {
       "id": "5",
-      "title": "Full Stack React Developer",
-      "type": "Full-Time",
-      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
-      "location": "Atlanta, GA",
-      "salary": "$90K - $100K",
+      "title": "Data Engineer ",
+      "type": "Hybrid/Tam Zamanlı",
+      "location": "Kağıthane/İstanbul",
+      "description": "◾İnovasyon projelerine ilgi duyuyorsan,\n\n◾Kişisel gelişimin senin için önemliyse,\n\n◾Alanındaki sektörel ve teknolojik gelişmeleri takip etmekten keyif alıyorsan,\n\n◾İş birliğine dayalı etkili iletişim kurabilen biriysen ya da kendini bu alanda geliştirmek istiyorsan doğru yerdesin.",
+      "qualification": "◾ Üniversitelerin Mühendislik, Matematik, İstatistik vb bölümlerinden mezun.\n\n◾ Veri analitiği, İş Zekası, Raporlama, Veri Modelleme, ETL çözümleri / mimarileri ve projelerinde deneyimli.\n\n◾ Sistem ve veri tabanı mimarisi konularında bilgili.\n\n◾ ODI, SSIS, Data Stage, Ab Initio, vb. ETL araçlarından en az birinde Informatica ETL ürünü veya geliştirmesinde en az 3 yıllık deneyim.\n\n◾ Analitik raporlama platformlarında bilgi ve deneyim (tercihen Mikrostrateji).\n\n◾ İlişkisel veritabanı çalışma prensipleri ve dilleri bilgisi (SQL, TSQL, PL/SQL vb.).\n\n◾ Unix/ Linux/ Windows türev işletim sistemleri üzerinde çalışmak ve komut dosyası oluşturma konusunda deneyim.\n\n◾ Yazılım proje yönetimi süreçleri ve çevik metodolojiler bilgisi (Scrum, Kanban).\n\n◾ Sürekli öğrenerek kendini yenileyen, problem çözmekten zevk alan, sonuç odaklı, araştırmacı, araştırmaya açık.",
+      "salary": "60000₺-65000₺",
       "company": {
-        "name": "Browning Technologies",
-        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
-        "webSiteUrl":"https://octopussignage.com",
-        "contactEmail": "contact@consecteturadipisicing.com",
-        "contactPhone": "555-555-5555",
-        "sector":"Yazılım Geliştirme",
-        "expertiseField":"Yazılım Geliştirme ve Mobil Uygulamalar"
+        "name": "Maroteknoloji",
+        "description": "Maro was founded in 2010 by experienced IT visionary Lale Maro, with the aim of offering superior technologies for various sectors alongside its work in sectors leading transformation in technology such as banking and finance. Today, Maro is a well-established information technologies consultancy company utilizing its assured success and expertise in project management and people-oriented digital strategy development to forge technology partnerships in different sectors, from retail to energy and e-commerce to insurance.",
+        "url": "http://www.maroteknoloji.com",
+        "contactEmail": "contact@maroteknoloji.com",
+        "contactPhone": "+902122870410",
+        "sector": "Bilgi Teknolojisi ve Hizmetleri",
+        "expertiseField": "Banking Technologies, Enterprise Architectures, Software Development, Business Analysis, Treasury & Credits Domains, Localization & Conversion, Core-Banking, Consultancy and Open Banking"
       }
     },
     {
       "id": "6",
-      "title": "React Native Developer",
-      "type": "Full-Time",
-      "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
-      "location": "Portland, OR",
-      "salary": "$100K - $110K",
+      "title": "Backend Developer (Nodejs) ",
+      "type": "Remote",
+      "location": "Ankara",
+      "description": "Finans sektöründe faaliyet gösteren müşterimiz ile birlikte yürütmüş olduğumuz projelerimiz için Senior Backend Developer olarak müşteri lokasyonundan ve uzaktan çalışabilecek enerjik ekip arkadaşları arıyoruz.",
+      "qualification":"GENEL NİTELİKLER \n•\tÜniversitelerin Bilgisayar Mühendisliği, Elektrik-Elektronik Mühendisliği, Matematik Mühendisliği, Bilişim Sistemleri Mühendisliği, Endüstri Mühendisliği, Yazılım Mühendisliği ve benzeri mühendislik bölümlerinden mezun,\n•\tEn az 7 yıl yazılım geliştirme tecrübesine sahip,\n•\tFinans, Telekom, e-ticaret veya finans sektör tecrübesi olan,AGILE çalışma prensibine uyum sağlayabilecek,\n•\tTakım üyeleri ve dış paydaşlarla etkili iletişim kurabilecek,\n•\tErkek adaylar için tercihen askerlik görevini tamamlamış,\n•\tGüçlü iletişime sahip,\n•\tAnalitik düşünme yetkinliği olan,\n•\tMüşteri ve çözüm odaklı,\n•\tEkip çalışmasına yatkın ve takım içerisinde uyumlu.\n                           TEKNİK YETKİNLİKLER\n•\tNodejs teknolojilerinde bilgili ve deneyim sahibi,\n•\tOracle, SQL, PostgreSQL etc. veri tabanı bilgisine sahip,\n•\tDocker teknolojileri konusunda bilgili,\n•\tFinans sektöründe deneyimli,\n•\tAnalitik düşünme ve problem çözme becerilerine sahip,\n•\tEkip çalışmasına uygun, iletişim becerileri güçlü.\n",
+      "salary": "55000₺-60000₺",
       "company": {
-        "name": "Port Solutions INC",
-        "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
-        "webSiteUrl":"https://octopussignage.com",
-        "contactEmail": "contact@ipsumlorem.com",
-        "contactPhone": "555-555-5555",
-        "sector":"Yazılım Geliştirme",
-        "expertiseField":"Yazılım Geliştirme ve Mobil Uygulamalar"
+        "name": "ICterra Bilgi ve İletişim Teknolojileri",
+        "description": "ICterra olarak 30 yılı aşkın yazılım geliştirme tecrübesi ile Ankara ve İstanbul, Londra ve Münih’te ofislere sahip ve sağladığı hizmetlerle yenilikçi, güvenilir ve maliyet etkin hizmetler sunan bir yazılım mühendisliği şirketiyiz. \n\nYıllar içinde edindiğimiz teknoloji uzmanlığını, kabiliyetleri ve kanıtlanmış metodolojilerimizi farklı sektörden müşterilerimize yazılım çözümleri sunmak için birleştiriyoruz. \n\nBilgi & İletişim Teknolojileri, Finans, Web & Mobil, Gömülü Sistemler, Aviyonik Yazılımları, Siber Güvenlik, Komuta Kontrol Sistemleri, Elektronik Harp Yazılımları, Sağlık Yazılımları ve Enerji Yazılımlarındaki yetkinliklerimizle; Yazılım Geliştirme, Yazılım Testi ve UI/UX Tasarımı hizmetleri sunuyoruz.  \n\nSayısı 200’un üzerinde olan profesyonel ekibimizle Telekomünikasyon, Finans, Sağlık, Savunma, Havacılık, Enerji ve Bilişim projeleri yürütmekte, yenilikçi ve müşteri odaklı ürünler geliştirmekteyiz. ",
+        "url": "https://www.icterra.com",
+        "contactEmail": "info@icterra.com",
+        "contactPhone": "+903122925000",
+        "sector": "Bilgi Teknolojisi ve Hizmetleri",
+        "expertiseField": "Telehealth,Telemedicine, Avionics, Automotive,Telecommunications, IoT,Medical Device Software,Digital Health,Functional Safety,Safety Critical,Embedded Software,Software Development,Cyber Security,Legacy Maintenance,Edge Computing,Industrial IoT,DICOM,HL7,CPQ and Master Data."
       }
     },
     {
@@ -116,11 +117,11 @@
       "company": {
         "name": "DAKYUZ Yazılım Ltd. ",
         "description": "Innovative Mobile Solutions",
-        "webSiteUrl":"https://octopussignage.com",
+        "webSiteUrl": "https://octopussignage.com",
         "contactEmail": "info@dakyuzltd.com",
         "contactPhone": "3122506482",
-        "sector":"Yazılım Geliştirme",
-        "expertiseField":"Yazılım Geliştirme ve Mobil Uygulamalar"
+        "sector": "Yazılım Geliştirme",
+        "expertiseField": "Yazılım Geliştirme ve Mobil Uygulamalar"
       }
     }
   ]
